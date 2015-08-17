@@ -1,0 +1,13 @@
+Single PHP file
+Show HTML form to receive parameters:
+  - Checkbox activate email / not
+  - SMTP Server IP (max 15 numericsymbols, not null)
+  - SMTP Server Port (max 5 numerics, not null)
+  - SMTP User Name (max 25 alfanumerics, not null)
+  - SMTP Password (max 25 alfanumericsymbols, password type, not null)
+  - Email Sender (max 50 alfanumericsymbols, email format, not null)
+  - Email Recipient (max 50 alfanumericsymbols, email format, not null)
+  - Email Subject (max 100 alfanumericsymbols, not null)
+  - Email Body (WYSIWYG format, not null)
+If Checkbox not checked, show alert, "Email will not be sent"
+If Checkbox checked, all other fileds must validated. Show error on field that violates validation. After that, send email using those specifications
