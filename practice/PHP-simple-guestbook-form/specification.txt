@@ -1,0 +1,18 @@
+Create Guestbook with input form name, email, phone number, and a text area for comments.
+
+Each input form box show color yellow in the beginning. When customer typing on the form box, color turns into blue. When customer finish inputting, system will check the input, if valid, color turns into green, if invalid, color turns into red.
+
+All field must be filled (not null). Email has to contain email format. Phone number has to contain only number.
+
+All data must be stored into MySql database that has been prepared before.
+
+----
+
+Deliverables:
+
+1 HTML file to show form with parameter (name, email, phone number, comments)
+1 CSS file to add art to the form (including color changing)
+1 Javascript file to do front-end validation 
+1 SQL file to create database and table.
+1 PHP file to insert data into MySql database
+
