@@ -1,0 +1,17 @@
+=================== 2015-08-25 11:25:00 =======================
+
+0. Indentation is important! To make source code readable.
+
+Review specifications:
+"Create Guestbook with input form name, email, phone number, and a text area for comments." << STATUS: functionally DONE with future notes
+"Each input form box show color yellow in the beginning. When customer typing on the form box, color turns into blue. When customer finish inputting, system will check the input, if valid, color turns into green, if invalid, color turns into red." << STATUS: initial yellow is done but not yet changed
+"All field must be filled (not null). Email has to contain email format. Phone number has to contain only number." << STATUS: still no validation
+"All data must be stored into MySql database that has been prepared before." << STATUS: functionally DONE with future notes
+"Deliverables 1 HTML, 1 CSS, 1 Javascript, 1 SQL, 1 PHP" << STATUS: 
+   - HTML file still on PHP format
+   - CSS file not yet exist
+   - Javascript file not yet exist
+   - SQL file not yet exist, do not use "framework-specific" *.frm, *.idb, and &.db
+   - PHP file already exist
+
+==============================================================
